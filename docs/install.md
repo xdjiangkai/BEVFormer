@@ -48,7 +48,7 @@ python setup.py install
 ```shell
 pip install timm
 
-pip install llvmlite==0.34.0
+pip install llvmlite==0.31.0
 ```
 
 
