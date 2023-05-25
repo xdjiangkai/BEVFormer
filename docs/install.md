@@ -44,9 +44,11 @@ git checkout v0.17.1 # Other versions may not be compatible.
 python setup.py install
 ```
 
-**f. Install timm.**
+**f. Install timm and proper llvmlite.**
 ```shell
 pip install timm
+
+pip install llvmlite==0.34.0
 ```
 
 
