@@ -1,13 +1,13 @@
 # Step-by-step installation instructions
 
 Following https://mmdetection3d.readthedocs.io/en/latest/getting_started.html#installation
-
+Require: CUDA 11.1
 
 
 **a. Create a conda virtual environment and activate it.**
 ```shell
-conda create -n open-mmlab python=3.8 -y
-conda activate open-mmlab
+conda create -n bev python=3.8 -y
+conda activate bev
 ```
 
 **b. Install PyTorch and torchvision following the [official instructions](https://pytorch.org/).**
