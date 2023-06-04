@@ -45,11 +45,13 @@ git checkout v0.17.1 # Other versions may not be compatible.
 pip install -v -e .  # or "python setup.py develop"
 ```
 
-**f. Install timm and proper llvmlite.**
+**f. Install timm, proper llvmlite, and mmengine-0.7.4.**
 ```shell
 pip install timm
 
 pip install llvmlite==0.31.0
+
+pip install mmengine==0.7.4
 ```
 
 
